@@ -1,0 +1,80 @@
+/* your styles go here */
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+html, body{ font-family: 'Jeju Gothic', sans-serif;}
+
+section{padding: 40px 0; font-family: 'Jeju Gothic', sans-serif;}
+
+nav .container{margin:0 15%; width: 1400px;}
+
+#navhome{padding-right: 5%; width: 100%;}
+#navbarcollapse{ margin-left:3%}
+.title{ font-family: 'Jeju Gothic', sans-serif; margin: 40px 0; 
+    font-size: 40px;
+}
+
+/**/
+#education_sec{font-family: 'Jeju Gothic', sans-serif;}
+.timeline-panel{background-color:#fff;}
+.sec-pad-top-sm header{margin-top: 50px; margin-bottom: 15px;}
+
+
+/*contact*/
+
+.contactinfo{    
+    padding-left:70%;
+    width: 100%;
+    font-size: 12px; color: #fff
+}
+
+.contactinfo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contact_icon {
+	margin: 7px 0;
+	padding-top: 10px;
+	width: 30px;
+	height: 25px;
+}
+
+.contact_icon img {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+    margin: 0 10px;
+    color: #fff;
+}
+.contact_icon .fa {
+	position: relative;
+	display: inline-block;
+	font-size: 25px;
+    margin: 0 12px;
+}
+
+
+.contact_icon .fa-map-marker{
+    font-size: 30px; margin: 0 16px; 
+}
+.contact_icon .fa-mobile{
+    font-size: 40px; margin: 0 16px; 
+}
+.c_mail{
+    padding-top:5px; 
+}
+
+.contact_icon .fa-github{font-size: 31px;}
+
+
+/*footer*/
+footer.main-footer{
+    font-family: 'Jeju Gothic', sans-serif;
+    padding-top: 120px; padding-bottom: 30px;
+
+}
+
+.fa:hover {cursor: pointer;	opacity: 0.6}
+
+
