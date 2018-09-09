@@ -20,17 +20,26 @@ nav .container{margin:0 15%; width: 1400px;}
 
 /*contact*/
 
-.contactinfo{    
+@media (min-width: 500px) {
+  .contactinfo {
+    padding-left: 30%;
+    } 
+    .contactinfo p{
+        font-size: 11px;
+    }
+}
+@media(min-width:900px){
+    .contactinfo{    
     padding-left:70%;
     width: 100%;
-    font-size: 12px; color: #fff
+    font-size: 10px; color: #fff
+    }
 }
 
 .contactinfo a{
     text-decoration: none;
     color: #fff;
 }
-
 
 .contact_icon {
 	margin: 7px 0;
@@ -68,6 +77,15 @@ nav .container{margin:0 15%; width: 1400px;}
 .contact_icon .fa-github{font-size: 31px;}
 
 
+/*reference*/
+
+.re_title{
+    font-family: 'Jeju Gothic', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+
 /*footer*/
 footer.main-footer{
     font-family: 'Jeju Gothic', sans-serif;
@@ -76,5 +94,6 @@ footer.main-footer{
 }
 
 .fa:hover {cursor: pointer;	opacity: 0.6}
+
 
 
