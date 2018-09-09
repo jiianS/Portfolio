@@ -6,7 +6,7 @@ section{padding: 40px 0; font-family: 'Jeju Gothic', sans-serif;}
 
 nav .container{margin:0 15%; width: 1400px;}
 
-#navhome{padding-right: 5%; width: 100%;}
+#navhome{font-family: 'Jeju Gothic', sans-serif; padding-right: 5%; width: 100%;}
 #navbarcollapse{ margin-left:3%}
 .title{ font-family: 'Jeju Gothic', sans-serif; margin: 40px 0; 
     font-size: 40px;
